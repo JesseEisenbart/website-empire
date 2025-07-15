@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import BackgroundContainer from '../../components/BackgroundContainer';
 
 export const metadata: Metadata = {
@@ -238,7 +239,7 @@ export default function PrivacyPolicy() {
 
 					<section className='mb-8'>
 						<h2 className='text-2xl font-medium mb-4 font-[family-name:var(--font-instrument-serif)]'>
-							9. Children's Privacy
+							9. Children&apos;s Privacy
 						</h2>
 						<p className='mb-4'>
 							Our services are not intended for children under the
@@ -270,8 +271,8 @@ export default function PrivacyPolicy() {
 						<p className='mb-4'>
 							We may update this privacy policy from time to time.
 							We will notify you of any changes by posting the new
-							privacy policy on this page and updating the "Last
-							updated" date.
+							privacy policy on this page and updating the &ldquo;Last
+							updated&rdquo; date.
 						</p>
 					</section>
 
@@ -294,12 +295,12 @@ export default function PrivacyPolicy() {
 				</div>
 
 				<div className='mt-12 text-center'>
-					<a
+					<Link
 						href='/'
 						className='inline-flex items-center justify-center rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5'
 					>
 						← Back to Home
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>

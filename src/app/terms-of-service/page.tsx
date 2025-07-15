@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import BackgroundContainer from '../../components/BackgroundContainer';
 
 export const metadata: Metadata = {
@@ -75,8 +76,8 @@ export default function TermsOfService() {
 							3. Disclaimer
 						</h2>
 						<p className='mb-4'>
-							The materials on our website are provided on an 'as
-							is' basis. We make no warranties, expressed or
+							The materials on our website are provided on an &apos;as
+							is&apos; basis. We make no warranties, expressed or
 							implied, and hereby disclaim and negate all other
 							warranties including without limitation, implied
 							warranties or conditions of merchantability, fitness
@@ -135,7 +136,7 @@ export default function TermsOfService() {
 							website and are not responsible for the contents of
 							any such linked site. The inclusion of any link does
 							not imply endorsement by us of the site. Use of any
-							such linked website is at the user's own risk.
+							such linked website is at the user&apos;s own risk.
 						</p>
 					</section>
 
@@ -180,12 +181,12 @@ export default function TermsOfService() {
 				</div>
 
 				<div className='mt-12 text-center'>
-					<a
+					<Link
 						href='/'
 						className='inline-flex items-center justify-center rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5'
 					>
 						← Back to Home
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>

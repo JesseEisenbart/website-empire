@@ -1,6 +1,4 @@
 import BackgroundContainer from '../components/BackgroundContainer';
-import Navigation from '../components/Navigation';
-import ComparisonSection from '../components/ComparisonSection';
 import Image from 'next/image';
 
 export default function Home() {
@@ -28,7 +26,7 @@ export default function Home() {
 					<p className='text-lg sm:text-xl max-w-2xl mb-12 text-white/80 leading-relaxed animate-fade-in opacity-0 animation-delay-800 animate-slide-up'>
 						Build your empire one habit at a time and create a life
 						to life to be proud of. Empire is not a habit tracker,
-						it's a system to rebuild your broken life.
+						it&apos;s a system to rebuild your broken life.
 					</p>
 
 					<div className='mb-8 animate-slide-up opacity-0 animation-delay-1100'>

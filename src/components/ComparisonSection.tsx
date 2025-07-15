@@ -39,7 +39,7 @@ export default function ComparisonSection() {
 							<li className='flex items-start gap-3'>
 								<span className='text-red-500 mt-1'>×</span>
 								<span>
-									You don't know why you're not making
+									You don&apos;t know why you&apos;re not making
 									progress
 								</span>
 							</li>
@@ -83,7 +83,7 @@ export default function ComparisonSection() {
 								</span>
 								<span>
 									You get insights & feedback from the app
-									and analyze what's not working
+									and analyze what&apos;s not working
 								</span>
 							</li>
 						</ul>
