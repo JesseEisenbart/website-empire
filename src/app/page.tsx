@@ -8,7 +8,6 @@ export default function Home() {
 		<div className='min-h-screen font-[family-name:var(--font-instrument-sans)]'>
 			<BackgroundContainer overlayOpacity='0.6' blurAmount='60px' gridOpacity='0.02'/>
 
-			{/* Hero Section */}
 			<div className='flex flex-col items-center justify-center min-h-screen text-center max-w-4xl mx-auto relative z-20 px-4 pt-10'>
 				<main className='flex flex-col items-center'>
 					<div className='mb-8 animate-fade-in opacity-0 animation-delay-200 animate-slide-up'>
